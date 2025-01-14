@@ -1,0 +1,26 @@
+{
+  "name": "ai-grammar-corrector",
+  "version": "1.0.0",
+  "description": "Ai chat grammar corrector",
+  "main": "app.js",
+  "type":"module",
+  "scripts": {
+    "server":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shamirShahzad/Ai-grammar-corrector.git"
+  },
+  "author": "Shamir Shahzad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shamirShahzad/Ai-grammar-corrector/issues"
+  },
+  "homepage": "https://github.com/shamirShahzad/Ai-grammar-corrector#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "node-fetch": "^3.3.2"
+  }
+}
