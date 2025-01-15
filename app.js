@@ -7,7 +7,7 @@ import { error } from "console";
 //https://api.openai.com/v1/chat/completions
 
 const app = express();
-const port = 3000;
+const port = 5000;
 
 const env = process.env;
 
